@@ -1,11 +1,68 @@
-<div ng-cloak>
-    <div class="row">
-        <div class="col-md-4">
-            <span class="img-responsive img-rounded"></span>
+<div class="m-home">
+    <!--Mask-->
+    <div class="view hm-black-strong m-slide">
+        <div class="m-slide-container flex-center">
+            <ul>
+                <li>
+                    <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">
+                        <strong>DOTA Smart Players</strong>
+                    </h1>
+                </li>
+                <li>
+                    <p class="wow fadeInDown">Let's play Defense of the Ancients</p>
+                </li>
+                <li>
+                    <button class="btn btn-primary btn-lg wow fadeInLeft" data-wow-delay="0.2s" ng-click="vm.scrollTo('sec-map')">Download</button>
+                </li>
+            </ul>
         </div>
-        <div class="col-md-8">
-            <h1>Welcome Demo!</h1>
 
-        </div>
     </div>
+    <!--/.Mask-->
+
+    <div class="divider-new">
+        <h2 class="h2-responsive wow fadeInDown">Popular Maps</h2>
+    </div>
+    <!-- Main container-->
+    <div class="container">
+
+        <!--Section: Maps-->
+        <section id="sec-map">
+
+            <div class="row">
+
+                <!--First columnn-->
+                <div ng-repeat="item in vm.popularMaps" class="col-md-3">
+                    <!--Card-->
+                    <div class="card wow fadeInUp">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img ng-src="{{item.imageUrl}}" class="img-fluid m-img-map" alt="">
+
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-xs-center">
+                            <!--Title-->
+                            <h4 class="card-title">{{item.name}}</h4>
+                            <hr>
+                            <!--Text-->
+
+                            <a href="{{item.downloadUrl}}" class="btn btn-primary">Download</a>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--First columnn-->
+
+            </div>
+
+        </section>
+        <!--/Section: Best features-->
+    </div>
+    <!--/ Main container-->
 </div>

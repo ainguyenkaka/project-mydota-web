@@ -1,4 +1,4 @@
-# AngularJS Initializer
+# My DOTA Website
 
 ## Developement
 

@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('demoApp', [
+        .module('webApp', [
             'ngResource',
             'ngAria',
             'ui.router',
