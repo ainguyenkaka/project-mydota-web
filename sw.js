@@ -23,8 +23,8 @@ const fileManifest = [
     "revision": "6f2c6888e9f517bf8389b3622a5fcea7"
   },
   {
-    "url": "app/app-19d4485784.js",
-    "revision": "19d44857842ee242a10c970b18e6f7c2"
+    "url": "app/app-381ecf2cad.js",
+    "revision": "381ecf2cad68f5a9f615b34e0f2f628e"
   },
   {
     "url": "app/vendor-f3aa146537.js",
@@ -51,12 +51,20 @@ const fileManifest = [
     "revision": "d49b3c96988eb3a3a1b1e9db2308345e"
   },
   {
+    "url": "content/images/dota_688_ai-32c12d5ba3.jpg",
+    "revision": "32c12d5ba3309cffbace1981a840cbd7"
+  },
+  {
     "url": "content/images/dota_v6-d2d14c2f27.85g_lod.jpg",
     "revision": "d2d14c2f27fe9063b9f64c31786cea28"
   },
   {
     "url": "content/images/dota-6-12e4abed56.86-ai.jpg",
     "revision": "12e4abed563c7e8641111e842c5b2482"
+  },
+  {
+    "url": "content/images/dota-6-bb771ec61d.83d-ai.jpg",
+    "revision": "bb771ec61dbb7cb967207c6fca00e4d8"
   },
   {
     "url": "content/images/dota-imba-map-032099831f.jpg",
@@ -111,16 +119,8 @@ const fileManifest = [
     "revision": "a67596aabdbed532dab23829db04495b"
   },
   {
-    "url": "content/js/bootstrap.min.js",
-    "revision": "dcdbfb1add69b22e5a78418ee63b7778"
-  },
-  {
-    "url": "content/js/jquery-2.2.3.min.js",
-    "revision": "33cabfa15c1060aaa3d207c653afb1ee"
-  },
-  {
-    "url": "content/js/mdb.min.js",
-    "revision": "4a94ebf710a9ee07d478216f4d09b369"
+    "url": "content/images/pd-background-a65e896915.jpg",
+    "revision": "a65e8969154f61a387d5aaac2bce68e0"
   },
   {
     "url": "content/js/tether.js",
@@ -132,7 +132,7 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "336ace178c60e2a69a84cc88c341699c"
+    "revision": "30f5e3b4e76ec4a33b5678700fcd813f"
   }
 ];
 
