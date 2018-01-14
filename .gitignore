@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ######################
 # Project Specific
 ######################
@@ -139,3 +140,8 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
+=======
+_site
+.sass-cache
+.jekyll-metadata
+>>>>>>> parent of 7fe23cd... update gitignore
