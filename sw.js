@@ -23,8 +23,8 @@ const fileManifest = [
     "revision": "6f2c6888e9f517bf8389b3622a5fcea7"
   },
   {
-    "url": "app/app-fcec4ea1a7.js",
-    "revision": "fcec4ea1a7df1f38da1edf5cab32fb21"
+    "url": "app/app-19d4485784.js",
+    "revision": "19d44857842ee242a10c970b18e6f7c2"
   },
   {
     "url": "app/vendor-f3aa146537.js",
@@ -47,24 +47,20 @@ const fileManifest = [
     "revision": "a8dade884b07a25cb5ea5386975a2aef"
   },
   {
-    "url": "content/images/dota_6-c0b3079097.83d.jpg",
-    "revision": "c0b3079097dd597bd352e14dd86b5e97"
+    "url": "content/images/dota_6-d49b3c9698.83d.jpg",
+    "revision": "d49b3c96988eb3a3a1b1e9db2308345e"
   },
   {
-    "url": "content/images/dota_688_ai-32c12d5ba3.jpg",
-    "revision": "32c12d5ba3309cffbace1981a840cbd7"
+    "url": "content/images/dota_v6-d2d14c2f27.85g_lod.jpg",
+    "revision": "d2d14c2f27fe9063b9f64c31786cea28"
   },
   {
-    "url": "content/images/dota_v6-8f9e54c801.85g_lod.jpg",
-    "revision": "8f9e54c8012b19f0545a0f84f42c0cee"
+    "url": "content/images/dota-6-12e4abed56.86-ai.jpg",
+    "revision": "12e4abed563c7e8641111e842c5b2482"
   },
   {
-    "url": "content/images/dota-6-f2621dd5f6.86-ai.jpg",
-    "revision": "f2621dd5f61ad49794c2f5c7a7c6af93"
-  },
-  {
-    "url": "content/images/dota-imba-map-4773cdd674.jpg",
-    "revision": "4773cdd6743cbf7c524d650845953c43"
+    "url": "content/images/dota-imba-map-032099831f.jpg",
+    "revision": "032099831fe3467dd85dfdab2e5a1bf2"
   },
   {
     "url": "content/images/lightbox/default-skin-3ba3b1beb0.svg",
@@ -115,8 +111,16 @@ const fileManifest = [
     "revision": "a67596aabdbed532dab23829db04495b"
   },
   {
-    "url": "content/images/pd-background-a65e896915.jpg",
-    "revision": "a65e8969154f61a387d5aaac2bce68e0"
+    "url": "content/js/bootstrap.min.js",
+    "revision": "dcdbfb1add69b22e5a78418ee63b7778"
+  },
+  {
+    "url": "content/js/jquery-2.2.3.min.js",
+    "revision": "33cabfa15c1060aaa3d207c653afb1ee"
+  },
+  {
+    "url": "content/js/mdb.min.js",
+    "revision": "4a94ebf710a9ee07d478216f4d09b369"
   },
   {
     "url": "content/js/tether.js",
@@ -128,7 +132,7 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "0c57c4d66037236e2c925b39cd2fadbd"
+    "revision": "336ace178c60e2a69a84cc88c341699c"
   }
 ];
 
