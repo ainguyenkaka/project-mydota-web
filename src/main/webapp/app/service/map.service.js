@@ -9,7 +9,7 @@
     function MapService($resource,DataService) {
 
         return $resource('', {}, {
-            'getPopularMap': { method: 'GET', url: DataService.getApiEndpoint('Map', 'A1', 'H10') }
+            'getPopularMap': { method: 'GET', cache: true , url: DataService.getApiEndpoint('Map', 'A1', 'H10') }
         });
 
     }

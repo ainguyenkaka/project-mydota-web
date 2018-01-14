@@ -45,7 +45,17 @@
     <noscript>
         <h1>You must enable javascript to view this page.</h1>
     </noscript>
-   
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111510207-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-111510207-2');
+    </script>
+
 
     <!-- build:js app/vendor.js -->
     <!-- bower:js -->
@@ -64,13 +74,13 @@
     <!-- SCRIPTS -->
 
     <!-- JQuery -->
-    <script type="text/javascript" src="content/js/jquery-2.2.3.min.js"></script>
+    <script async type="text/javascript" src="content/js/jquery-2.2.3.min.js"></script>
 
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="content/js/tether.min.js"></script>
+    <script async type="text/javascript" src="content/js/tether.min.js"></script>
 
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="content/js/bootstrap.min.js"></script>
+    <script async type="text/javascript" src="content/js/bootstrap.min.js"></script>
 
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="content/js/mdb.min.js"></script>
